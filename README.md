@@ -1,9 +1,9 @@
 jekyll-category-aware-prev-next
 ==============
 
-A jekyll generator to add category aware cat_next and cat_previous to posts since jekyll's next and prev do not take the category into account.
+A jekyll generator to add category aware ```cat_next``` and ```cat_previous``` to ```page``` since jekyll's next and prev do not take the category into account.
 
-This is based on the "gist":https://gist.github.com/stravid/4078840 of "David Strauss":https://github.com/stravid
+This is based on the [gist](https://gist.github.com/stravid/4078840) of [David Strauss](https://github.com/stravid)
 
 ## Installation
 
@@ -12,6 +12,10 @@ Place lib/jekyll-category-aware-prev-next.rb in your _plugins folder
 Or install it:
 
     $ gem install jekyll-category-aware-prev-next
+    
+## Usage
+
+```{{ page.cat_next.url }}``` or ```{{ page.cat_previous.url }}```
 
 ## License
 
